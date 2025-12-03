@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply fonts */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Use a serif font for the actual Bible text for readability */
+.bible-text {
+  font-family: 'Merriweather', serif;
+  line-height: 1.8;
+}
